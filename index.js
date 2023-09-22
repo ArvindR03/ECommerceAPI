@@ -31,3 +31,5 @@ app.use('/api/products', ecommerce_routes)
 app.listen(PORT, () => {
     console.log(`server initialised at ${PORT}`)
 })
+
+module.exports = app
